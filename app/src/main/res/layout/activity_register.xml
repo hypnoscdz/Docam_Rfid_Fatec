@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.Register">
+
+    <TextView
+
+        style="@style/TextViewForm"
+        android:text="Criar Conta" />
+
+    <EditText
+
+        android:id="@+id/edt_nome_register"
+        style="@style/EditTextForm"
+        android:hint="Nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_sobrenome_register"
+        style="@style/EditTextForm"
+        android:hint="Sobrenome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_email_register"
+        style="@style/EditTextForm"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edt_senha_register"
+        style="@style/EditTextForm"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edt_confirmar_senha_register"
+        style="@style/EditTextForm"
+        android:hint="Confirme a Senha"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/ckb_mostrar_senha_register"
+        style="@style/CheckBoxForm"
+        android:text="Mostrar senha" />
+
+    <Button
+        style="@style/ButtonForm"
+        android:id="@+id/btn_registrar_register"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/btn_login_registrar"
+
+        style="@style/ButtonForm"
+        android:text="Login" />
+
+    <ProgressBar
+        android:id="@+id/loginProgressBar_register"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/white"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

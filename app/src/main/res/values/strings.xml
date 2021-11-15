@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Docam_Rfid_Fatec</string>
+    <string name="Titulo">Docam RFID</string>
+    <string name="botao_de_cadastro">Cadastro de Item</string>
+    <string name="botao_de_consulta">Consulta de Item</string>
+
+
+</resources>

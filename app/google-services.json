@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "637569659405",
+    "project_id": "docam-rfid-fatec",
+    "storage_bucket": "docam-rfid-fatec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637569659405:android:943c913d55b7ea13435b44",
+        "android_client_info": {
+          "package_name": "com.douglasdeadfish1984.docam_rfid_fatec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637569659405-pgai77i2dfftups5752cv047gcd8b5mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrJtUaaP0F6RSGnBXtby2LbaEb92FU29Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637569659405-pgai77i2dfftups5752cv047gcd8b5mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

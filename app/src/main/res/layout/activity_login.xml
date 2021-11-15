@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.Login">
+
+    <TextView
+        style="@style/TextViewForm"
+        android:text="@string/Titulo" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        style="@style/EditTextForm"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <EditText
+
+        android:id="@+id/edt_senha"
+        style="@style/EditTextForm"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/ckb_mostrar_senha"
+        style="@style/CheckBoxForm" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/ButtonForm"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        style="@style/ButtonForm"
+        android:text="Registrar"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/loginProgressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/white"
+        android:visibility="invisible" />
+
+
+</LinearLayout>
